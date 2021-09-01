@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block content %}
+    <section class="hero">
+        <h1>Hi, my name is David</h1>
+    </section>    
+
+    <section class="page">
+        <figure>
+          <img src="{% static 'david.jpg' %}" alt="Hi, my name is David">
+          <figcaption>
+            <p>David Vo (&deg;1990, Melbourne, Australia) creates media artworks, installations and mixed media artworks. With a subtle minimalistic approach, Vo creates work in which a fascination with the clarity of content and an uncompromising attitude towards conceptual and minimal art can be found. The work is aloof and systematic and a cool and neutral imagery is used.</p>
+            <p>His practice provides a useful set of allegorical tools for manoeuvring with a pseudo-minimalist approach in the world of media art: these meticulously planned works resound and resonate with images culled from the fantastical realm of imagination. By emphasising aesthetics, he seduces the viewer into a world of ongoing equilibrium and the interval that articulates the stream of daily events. Moments are depicted that only exist to punctuate the human drama in order to clarify our existence and to find poetic meaning in everyday life.</p>
+            <p>His works doesn&rsquo;t reference recognisable form. The results are deconstructed to the extent that meaning is shifted and possible interpretation becomes multifaceted. By applying abstraction, he creates intense personal moments masterfully created by means of rules and omissions, acceptance and refusal, luring the viewer round and round in circles.</p>
+            <p>His works sometimes radiate a cold and latent violence. At times, disconcerting beauty emerges. The inherent visual seductiveness, along with the conciseness of the exhibitions, further complicates the reception of their manifold layers of meaning. David Vo currently lives and works in Brooklyn.</p>
+          </figcaption>
+        </figure>
+      </section>  
+{% endblock %}
